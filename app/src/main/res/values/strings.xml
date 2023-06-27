@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab</string>
+    <string name="load_image">Load Image</string>
+    <string name="image_not_loaded">Image not loaded</string>
+    <string name="sleep_time_seconds">Sleep time seconds: </string>
+    <string name="message">Message</string>
+    <string name="run_asyntask">Run asyntask</string>
+</resources>
