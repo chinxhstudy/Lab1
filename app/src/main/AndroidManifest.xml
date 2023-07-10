@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -13,9 +14,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lab"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
             android:name=".Lab1Activity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".Lab1Ex1Activity" />
+        <activity android:name=".Lab1Ex2Activity" />
+        <activity android:name=".SplashscreenActivity" />
+        <activity android:name=".Lab1Ex3Activity" />
+        <activity android:name=".Lab1Ex4Activity" />
+        <activity android:name=".Lab2Ex1Activity" />
+        <activity android:name=".Lab2Ex2Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,12 +34,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Lab1Ex1Activity" />
-        <activity android:name=".Lab1Ex2Activity" />
-        <activity android:name=".SplashscreenActivity" />
-        <activity android:name=".Lab1Ex3Activity" />
-        <activity android:name=".Lab1Ex4Activity" />
-
     </application>
 
 </manifest>
