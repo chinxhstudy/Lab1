@@ -26,7 +26,9 @@
         <activity android:name=".Lab1Ex3Activity" />
         <activity android:name=".Lab1Ex4Activity" />
         <activity android:name=".Lab2Ex1Activity" />
-        <activity android:name=".Lab2Ex2Activity"
+        <activity android:name=".Lab2Ex2Activity" />
+        <activity android:name=".Lab2Ex3Activity" />
+        <activity android:name=".Lab2Ex4Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
