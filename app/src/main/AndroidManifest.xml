@@ -28,13 +28,11 @@
         <activity android:name=".Lab2Ex1Activity" />
         <activity android:name=".Lab2Ex2Activity" />
         <activity android:name=".Lab2Ex3Activity" />
-        <activity android:name=".Lab2Ex4Activity" />
-        <activity android:name=".lesson5.PhotoUsing2Activity" />
-        <activity android:name=".lesson5.PhotoUsing1Activity" />
-        <activity android:name=".lesson5.Lesson5Activity"
+        <activity android:name=".Lab2Ex4Activity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
